@@ -2,7 +2,7 @@
 
 This project aims to create an open framework for personal computing. Cheap, simple, yet practical.
 
-![alt text](https://github.com/NinaCarrot/onee-chan/blob/main/blobs/demo.jpg "Demo of the reference implementation")
+![alt text](https://github.com/ninakali/flourish-pc/blob/main/blobs/demo.jpg "Demo of the reference implementation")
 
 # why?
 

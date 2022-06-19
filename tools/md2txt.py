@@ -2,7 +2,7 @@ import sys
 from mistletoe import markdown, base_renderer, block_token
 
 class TxtRenderer(base_renderer.BaseRenderer):
-    MAXLEN = 63
+    MAXLEN = 48
     listblocks = 0
 
     def render_heading(self, token):
@@ -14,11 +14,11 @@ class TxtRenderer(base_renderer.BaseRenderer):
         elif token.level == 2:
             template = '*** {} '
             ready = template.format(self.render_inner(token))
-            ready = '\n' + ready + "*" * (self.MAXLEN - len(ready)) + "\n"
+            ready = '\n\n' + ready + "*" * (self.MAXLEN - len(ready)) + "\n\n"
         else:
-            template = '\n! {}\n'
+            template = '\n\n! {}\n'
             ready = template.format(self.render_inner(token))
-            ready = ready + "~" * (len(ready)-2) + "\n"
+            ready = ready + "~" * (len(ready)-2) + "\n\n"
         return ready
 
     def render_strong(self, token):
@@ -30,8 +30,10 @@ class TxtRenderer(base_renderer.BaseRenderer):
         return template.format(self.render_inner(token))
 
     def render_list_item(self, token):
-        template = ' > {}'
-        return template.format(self.render_inner(token))
+        template = ' - {}'
+        inner = self.render_inner(token)
+        return template.format(inner)
+
 
     def render_link(self, token):
         template = '[ {inner} ] =>{target}<='
@@ -46,7 +48,7 @@ class TxtRenderer(base_renderer.BaseRenderer):
         cute = []
         tmp = []
         for ch in line:
-            if len(tmp) < self.MAXLEN:
+            if (len(tmp) + self.listblocks*2) < self.MAXLEN :
                 tmp.append(ch)
             else:
                 idx = len(tmp) - tmp[::-1].index(" ") - 1
@@ -71,7 +73,11 @@ class TxtRenderer(base_renderer.BaseRenderer):
         return ''.join(rendered)
 
     def render_paragraph(self, token):
-        inner = ("  " + self.render_inner(token)).splitlines()
+        if self.listblocks > 0:
+            offset = ""
+        else:
+            offset = "  "
+        inner = (offset + self.render_inner(token)).splitlines()
         new_inner = []
         for line in inner:
             if len(line) > self.MAXLEN:

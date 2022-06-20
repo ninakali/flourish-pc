@@ -45,7 +45,7 @@ On the other hand, even TV-based displays like CGA, with 40-column mode, make a 
 ![(CGA adapter - mock)](https://github.com/ninakali/flourish-pc/blob/main/blobs/cga.jpg)
 
 ### The heck is PBM?
-It's a straightforward image format. It goes like this: P4, then the image's resolution as two numbers in ASCII, and then 1bpp bitmap. It takes only 6201 bytes to store a 256x192 image in this format. The resolution is nothing to write home about, but it's useable. Check [parrot.pbm](blobs/parrot.pbm) and its mock fullscreen render:
+It's a straightforward image format. It goes like this: P4, then the image's resolution as two numbers in ASCII, and then 1bpp bitmap. It takes only 6201 bytes to store a 256x192 image in this format. The resolution is nothing to write home about, but it's useable. Check [parrot.pbm](blobs/parrot.pbm) and its mock fullscreen render.
 ![(PBM parrot)](https://github.com/ninakali/flourish-pc/blob/main/blobs/parrot.jpg)
 
 This likely would mean that images for minimal release must be manually adjusted or split into multiple parts.

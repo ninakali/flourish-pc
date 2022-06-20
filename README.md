@@ -2,7 +2,9 @@
 
 This project aims to create an open framework for personal computing. Cheap, simple, yet practical.
 
-![(There used to be a picture of a computer.)](https://github.com/ninakali/flourish-pc/blob/main/blobs/demo.jpg "Demo of the reference implementation")
+![(A picture of a home-made computer.)](https://github.com/ninakali/flourish-pc/blob/main/blobs/demo.jpg "Demo of the reference implementation")
+
+Current release: none yet.
 
 ## why?
 
@@ -18,13 +20,6 @@ Suppose Collapse OS is a framework for making bootable OS for scavenge-friendly 
 
 It is challenging to decide what the framework should include, though. For example, should we cover topics ranging from "you have a stick and a stone" to "now we finally produced electron tubes/semiconductor devices"? Probably not; we believe there must be better sources of knowledge regarding those essential-for-preserving-civilization topics. But on the other hand, basic knowledge about digital electronics is necessary for building a computer so we will include a primer on this topic.
 
-## structure of the project
-
-The __src__ directory is for the framework: documentation in Markdown format, schematics and code in source and target formats (for instance, kicad+png).
-
-The __tools__ directory is for tools needed to convert the sources of the framework into release formats. We strive to make this framework maximally portable by providing plain-text (7-bit ASCII) and print-at-home versions.
-
-The __blobs__ directory is for files used in this file.
 
 ## community?
 At the moment, there is no community around this project. If you are interested in Flourish PC and want to get in touch with the creators, feel free to email Nina at nkali[at]pm[dot]me, or contact her in Discord (ninak[#]1337) and on [Twitter](https://twitter.com/nina_kali_nina).

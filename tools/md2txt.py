@@ -2,7 +2,7 @@ import sys
 from mistletoe import markdown, base_renderer, block_token
 
 class TxtRenderer(base_renderer.BaseRenderer):
-    MAXLEN = 48
+    MAXLEN = 40
     listblocks = 0
 
     def render_heading(self, token):
@@ -51,12 +51,12 @@ class TxtRenderer(base_renderer.BaseRenderer):
             if (len(tmp) + self.listblocks*2) < self.MAXLEN :
                 tmp.append(ch)
             else:
-                idx = len(tmp) - tmp[::-1].index(" ") - 1
-                if idx > 1:
+                try:
+                    idx = len(tmp) - tmp[::-1].index(" ") - 1
                     cute.append(''.join(tmp[:idx]))
                     tmp = tmp[idx+1:]
                     tmp.append(ch)
-                else:
+                except ValueError:
                     # shikatanai yo
                     cute.append(''.join(tmp))
                     tmp = [ch]

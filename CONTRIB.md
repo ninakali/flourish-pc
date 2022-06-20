@@ -13,6 +13,8 @@ Finally, __beyond__ is for storing files that can be useful for Beyond Flourish.
 ## Why tools are in Python?
 Ideally, we want this framework to be self-hosting (i.e., reproducible with the help of computers built with it). But the generation of HTML, PDF and Rich Text doesn't seem to be a task that simplistic computers can quickly solve. So, for now, we prefer to have a tool that works rather than a tool that can be self-hosting. Pull requests are welcome, though.
 
+## Naming convention
+For portability, chapters are split into folders with numeric names. If your storage format doesn't support folders, you might want to put different chapters on different media. Each subchapter is assigned a number. To avoid renumbering in the future, you may use BASIC-like numbers for chapter numbers (010, 020, etc.). Please use leading zeroes for convenient file sorting.
 
 ## Planned release formats
 

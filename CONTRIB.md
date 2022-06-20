@@ -39,13 +39,16 @@ According to a [Wikipedia article](https://en.wikipedia.org/wiki/List_of_home_co
 The most popular machines can display 40-64 symbols per line with some software hacks.
 
 Here is a mock-up of the default 22-line display mode of VIC-20. It doesn't seem quite readable.
+
 ![(VIC-20 trying its best to display a bit of Flourish GitHub page)](https://github.com/ninakali/flourish-pc/blob/main/blobs/cbm.jpg)
 
 On the other hand, even TV-based displays like CGA, with 40-column mode, make a quite readable medium.
+
 ![(CGA adapter - mock)](https://github.com/ninakali/flourish-pc/blob/main/blobs/cga.jpg)
 
 ### The heck is PBM?
 It's a straightforward image format. It goes like this: P4, then the image's resolution as two numbers in ASCII, and then 1bpp bitmap. It takes only 6201 bytes to store a 256x192 image in this format. The resolution is nothing to write home about, but it's useable. Check [parrot.pbm](blobs/parrot.pbm) and its mock fullscreen render.
+
 ![(PBM parrot)](https://github.com/ninakali/flourish-pc/blob/main/blobs/parrot.jpg)
 
 This likely would mean that images for minimal release must be manually adjusted or split into multiple parts.

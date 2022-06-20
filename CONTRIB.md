@@ -10,6 +10,10 @@ The __blobs__ directory is for files used in the repo.
 
 Finally, __beyond__ is for storing files that can be useful for Beyond Flourish.
 
+## Why tools are in Python?
+Ideally, we want this framework to be self-hosting (i.e., reproducible with the help of computers built with it). But the generation of HTML, PDF and Rich Text doesn't seem to be a task that simplistic computers can quickly solve. So, for now, we prefer to have a tool that works rather than a tool that can be self-hosting. Pull requests are welcome, though.
+
+
 ## Planned release formats
 
 Modern computer screens are excellent; modern computers are crazy fast. But many people don't have access to them. And if we're unlucky, things will get even worse. Using modern computers to develop Flourish PC helps us speed up the process. But we think it is crucial to support most personal computing devices out there, including machines with VERY low memory and resolutions. A "minimal requirements" line shall be drawn, nevertheless.

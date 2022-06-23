@@ -1,0 +1,24 @@
+Connections:
+
+PORT C PC0-PC8 - Memory DATA BUS
+
+PORTS A and D - Memory ADDRESS BUS A0-A15
+
+PORT B:
+PB5 - MOSI
+PB6 - MISO
+PB7 - SCK
+---
+PB4 - A16 line
+PB3 - OE~
+PB2 - WE~
+--
+PB0, PB1 - RX/TX
+
+==== SPI port
+VCC -- end of board
+GND
+CLK
+MISO
+MOSI
+CS (check if high/low EN)

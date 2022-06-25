@@ -1,10 +1,10 @@
 # Flourish PC framework
 
-* [Preface](preface.md)
-
-## You might have a computer already
-* [You might have a computer already](000/000.md)
-* [Phones as PCs](000/001.md)
+## Preface
+* [Preface: Flourish PC and permacomputing](preface.md)
+* [Flourish PC for computer engineers and hobbyists](000/000.md)
+* [Flourish PC for frugal and affordable personal computing](000/001.md)
+* [Flourish PC for salvage and collapse computing](000/002.md)
 
 ## Essentials
 * Safety
@@ -55,3 +55,7 @@ TBD
 TBD
 
 ## Beyond Flourish PC
+
+### You might have a computer already
+* [You might have a computer already](fff/000.md)
+* [Phones as PCs](fff/001.md)

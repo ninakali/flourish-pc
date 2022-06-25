@@ -1,9 +1,19 @@
-# Preface
+# Preface: Flourish PC and permacomputing
 
-## Computers are everywhere
-Computers have changed human civilisation. We depend on them, as we use them in almost every aspect of our daily lives and production cycles. Today, in 2022, it is not uncommon to use computers to power toothbrushes or single-use train tickets. Therefore, computers are vital to us, yet we treat them as though they're expendable.
+Computers have changed human civilisation. We depend on them, as we use them in almost every aspect of our daily lives and production cycles.
 
-The humanity will probably do fine without electric toothbrushes and CPU-powered pregnancy tests. But here is a non-exhaustive list of areas of human lives that today can seriously suffer without computers:
+## We waste our limited resources with computers...
+Today, in 2022, it is not uncommon to use tiny computers to power toothbrushes, pregnancy tests and even single-use train tickets.
+The most commonly used RFID ticket, according to [MIT Technology Review](https://www.technologyreview.com/2008/10/20/96275/how-smart-is-a-smart-card/), probably has more computational power than the first commercially successful personal computer, Altair 8800.
+
+The way we use more powerful computers has changed over the years, too. These days, a modest smartphone with eight cores @ 1.8GHz and 2 GB RAM is barely enough for routine tasks, despite being five times faster than a supercomputer Cray-2 and about as fast as the fastest computer in the world in 1993, NEC SX-3. Of course, some lovely things require a lot of computing power: HD video, lossless audio compression, real-time raytracing, and strong encryption. But plenty of tasks like reading, text editing and home budgeting don't have to need more than a fraction of this performance.
+
+**Are we using wisely all this computing power (plus electricity and rare metals) we have in our pockets?**
+
+## ...while we could save our limited resources with computers...
+We might threat computers as though they're expendable, but they are vital for us.
+
+Here is a non-exhaustive list of areas of human lives that today can seriously suffer without computers:
 * Communications: mobile networks and digital phone stations
 * Information distribution: radio and television, printing, Internet
 * Knowledge preservation: photography, computer storage systems, Wikipedia
@@ -12,42 +22,22 @@ The humanity will probably do fine without electric toothbrushes and CPU-powered
 * Transportation: engine control systems
 * Healthcare: diagnostic systems
 
-To make things worse, the computers we use are so complex they are beyond a single person's comprehension level. They cannot be reproduced (and often used) without pre-existing advanced computers and extensive expert knowledge.
+Access to computers (or lack thereof) can make a massive difference in the quality of life of individuals, communities and countries. Unfortunately, despite widespread cheap computing devices, general-purpose computers are rare in poor and isolated regions.
 
-Surely, it is not a big deal? Well... We think there are at least a few reasons to consider changing the current situation.
+**Can we do anything about this unfairness?**
 
-### "Sudden crisis" scenarios
-While collecting an exhaustive list of realistic threats to computing is not a goal of this project, we think it's essential to provide at least some examples. You might find those in the "External links" section below. Naturally, there are countermeasures to these threats. But what if these countermeasures fail?
+## ...but we don't really know how computers work
+The computers we use are so complex they are beyond a single person's comprehension level. They cannot be reproduced or repaired without pre-existing advanced computers and extensive expert knowledge. Worse, even once-popular computers often cannot be even __used__ without know-how, which is either obscure or completely lost by now. It is frightening that by now, even __computer engineers with university degrees__ find the foundations of computer science and hardware too complicated to be bothered to understand. So, when running an actual computer system, it is common to rely on incomplete documentation, tribal knowledge, past experiences, logical reasoning, and pure luck.
 
-* Most advanced computer technologies are proprietary. A targeted attack on such a technology might cause a falling dominoes effect. Permanent damage to strategically important plants such as TSMC and Intel might leave the planet without essential chips.
-* A war or a natural disaster might cut off an entire country's access to information and imports.
-* An economic crisis might leave you without digital components for your cars, tractors and factories.
-* A planet-scale catastrophe similar to Carrington Event at scale could disrupt global supply and production chains so severely that the whole civilisation will collapse.
+**Does this sound OK to you?**
 
-<details><summary>External links</summary>
-<p>
+## If permacomputing is the answer, then Flourish PC is _an_ answer
+You may have never heard the word "permacomputing" before. Don't worry. We didn't hear this word until we started working on this project, either.
 
+As defined by [Devine Lu Linvega](https://wiki.xxiivv.com/site/permacomputing.html), permacomputing is a sustainable computing approach. Permacomputing consists of:
+* frugal computing (treating computing resources as precious),
+* salvage computing (relying on existing resources), and
+* collapse computing (utilising the computing resources that survived the collapse of production).
+These branches of permacomputing might be the answers to the questions we posed earlier.
 
-#### Targeted attacks against technologies
-* [Hackers wiped the entire Sony Pictures infrastructure in 2014.](https://en.wikipedia.org/wiki/Sony_Pictures_hack)
-* [Stuxnet, a computer virus designed to destroy Iran's nuclear programme.](https://en.wikipedia.org/wiki/Stuxnet)
-* [TSMC, the biggest semiconductor plant, is stopped due to a hack.](https://thehackernews.com/2018/08/tsmc-wannacry-ransomware-attack.html)
-#### Consequences of wars and natural disasters
-* [Ukraine regions have had no Internet access because of the war.](https://www.nbcnews.com/tech/tech-news/ukraine-facing-major-regional-internet-outages-russian-invasion-contin-rcna18973)
-* [Staying connected when the world falls apart: how carriers keep phones working.](https://www.cnet.com/tech/mobile/features/staying-connected-when-the-world-falls-apart-how-carriers-keep-phones-working/)
-#### Economic blockades and crises
-* [On-going global chip shortage.](https://en.wikipedia.org/wiki/2020%E2%80%93present_global_chip_shortage)
-* [In Russia, Western Planes Are Falling Apart.](https://www.wired.co.uk/article/in-russia-western-planes-are-falling-apart)
-#### Global catastrophic risks
-* [Wikipedia on global catastrophic risks.](https://en.wikipedia.org/wiki/Global_catastrophe_scenarios)
-* [The solar storm of 2012 could have taken 4 to 10 years to recover from.](https://en.wikipedia.org/wiki/July_2012_solar_storm)
-* [The solar storm of 1972 detonated sea mines and was misinterpreted as a nuclear explosion by detection satellites.](https://en.wikipedia.org/wiki/August_1972_solar_storm#Impacts)
-
-</p>
-</details>
-
-### The spring has never come here
-If you live in a poorer or an isolated (e.g. by censorship) country, you might have no general-purpose computing devices lying around.
-* Options for education and research are going to be severely limited.
-* Anything but simple mechanical and electrical designs will be unattainable or very expensive.
-* Self-replicating technologies like 3D printers are beyond your reach.
+Flourish PC is a framework for building functional, practical, accessible, and simple personal computers; a framework for permacomputers, in other words. If this is what you're looking for, then this project can be helpful for you.

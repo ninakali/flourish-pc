@@ -41,3 +41,5 @@ As [defined by Devine Lu Linvega](https://wiki.xxiivv.com/site/permacomputing.ht
 These branches of permacomputing might be the answers to the questions we posed earlier.
 
 Flourish PC is a framework for building functional, practical, accessible, and simple personal computers; a framework for permacomputers, in other words. If this is what you're looking for, then this project can be helpful for you.
+
+[**Next**](000/000.md)

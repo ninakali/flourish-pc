@@ -29,19 +29,19 @@ While collecting an exhaustive list of realistic threats to computing is not a g
 
 
 #### Targeted attacks against technologies
-* [Hackers wiped entire Sony Pictures infrastructure in 2014.](https://en.wikipedia.org/wiki/Sony_Pictures_hack)
+* [Hackers wiped the entire Sony Pictures infrastructure in 2014.](https://en.wikipedia.org/wiki/Sony_Pictures_hack)
 * [Stuxnet, a computer virus designed to destroy Iran's nuclear programme.](https://en.wikipedia.org/wiki/Stuxnet)
 * [TSMC, the biggest semiconductor plant, is stopped due to a hack.](https://thehackernews.com/2018/08/tsmc-wannacry-ransomware-attack.html)
 #### Consequences of wars and natural disasters
-* [Ukraine regions have had no Internet access because of a war.](https://www.nbcnews.com/tech/tech-news/ukraine-facing-major-regional-internet-outages-russian-invasion-contin-rcna18973)
+* [Ukraine regions have had no Internet access because of the war.](https://www.nbcnews.com/tech/tech-news/ukraine-facing-major-regional-internet-outages-russian-invasion-contin-rcna18973)
 * [Staying connected when the world falls apart: how carriers keep phones working.](https://www.cnet.com/tech/mobile/features/staying-connected-when-the-world-falls-apart-how-carriers-keep-phones-working/)
 #### Economic blockades and crises
 * [On-going global chip shortage.](https://en.wikipedia.org/wiki/2020%E2%80%93present_global_chip_shortage)
 * [In Russia, Western Planes Are Falling Apart.](https://www.wired.co.uk/article/in-russia-western-planes-are-falling-apart)
 #### Global catastrophic risks
 * [Wikipedia on global catastrophic risks.](https://en.wikipedia.org/wiki/Global_catastrophe_scenarios)
-* [Solar storm of 2012 that could have take 4 to 10 years to recover from.](https://en.wikipedia.org/wiki/July_2012_solar_storm)
-* [Solar storm of 1972 that detonated sea mines and was misinterpreted as a nuclear explosion by detection satellites.](https://en.wikipedia.org/wiki/August_1972_solar_storm#Impacts)
+* [The solar storm of 2012 could have taken 4 to 10 years to recover from.](https://en.wikipedia.org/wiki/July_2012_solar_storm)
+* [The solar storm of 1972 detonated sea mines and was misinterpreted as a nuclear explosion by detection satellites.](https://en.wikipedia.org/wiki/August_1972_solar_storm#Impacts)
 
 </p>
 </details>

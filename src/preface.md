@@ -25,7 +25,7 @@ While collecting an exhaustive list of realistic threats to computing is not a g
 * A planet-scale catastrophe similar to Carrington Event at scale could disrupt global supply and production chains so severely that the whole civilisation will collapse.
 
 <details><summary>External links</summary>
-<p>
+
 * Targeted attacks against technologies
 ** [Hackers wiped entire Sony Pictures infrastructure in 2014.](https://en.wikipedia.org/wiki/Sony_Pictures_hack)
 ** [Stuxnet, a computer virus designed to destroy Iran's nuclear programme.](https://en.wikipedia.org/wiki/Stuxnet)
@@ -41,7 +41,7 @@ While collecting an exhaustive list of realistic threats to computing is not a g
 ** [Solar storm of 2012 that could have take 4 to 10 years to recover from.](https://en.wikipedia.org/wiki/July_2012_solar_storm)
 ** [Solar storm of 1972 that detonated sea mines and was misinterpreted as a nuclear explosion by detection satellites.](https://en.wikipedia.org/wiki/August_1972_solar_storm#Impacts)
 **
-</p>
+
 </details>
 
 ### The spring has never come here

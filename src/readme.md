@@ -1,6 +1,6 @@
 # Flourish PC framework
 
-* Preface
+* [Preface](preface.md)
 
 ## You might have a computer already
 * [You might have a computer already](000/000.md)
@@ -44,6 +44,12 @@
 * Display
 * Communication
 * Storage
+
+## Peripherials
+TBD
+
+## Bridging and networking
+TBD
 
 ## Software
 TBD

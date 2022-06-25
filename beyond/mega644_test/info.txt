@@ -1,8 +1,12 @@
 Connections:
 
-PORT C PC0-PC8 - Memory DATA BUS
+PORT D0 & D1 - UART
 
-PORTS A and D - Memory ADDRESS BUS A0-A15
+PORT C PC0-PC7 - Memory DATA BUS
+
+PORTS PA0-7, PD2-7, PB0-1 - Memory ADDRESS BUS
+
+===
 
 PORT B:
 PB5 - MOSI
@@ -12,8 +16,6 @@ PB7 - SCK
 PB4 - A16 line
 PB3 - OE~
 PB2 - WE~
---
-PB0, PB1 - RX/TX
 
 ==== SPI port
 VCC -- end of board

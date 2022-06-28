@@ -1,5 +1,7 @@
 # Flourish PC framework
 
+* [Glossary](glossary.md)
+
 ## Preface
 * [Preface: Flourish PC and permacomputing](preface.md)
 * [Flourish PC for computer engineers and hobbyists](000/000.md)

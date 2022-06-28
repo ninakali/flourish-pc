@@ -6,6 +6,12 @@
 #### **Bit**
 In computing theory, the most basic unit of digital information that can represent only two states: "0" and "1", or "Yes" and "No", and so on. The name comes from "binary digit".
 
+#### **Boot**
+
+
+#### **Bootstrapping**
+A process of starting something that can continue to operate or improve without external input. Often it means "a success in building a self-hosting environment". Examples of things that might need bootstrapping are operating systems, compilers, and computers themselves. See also: _boot_.
+
 #### **Byte**
 1. A unit of digital information. In the modern sense, one byte equals eight bit. Originally meant "number of bits required to encode a single character of text"
 2. Eight bit of information.
@@ -14,6 +20,8 @@ In computing theory, the most basic unit of digital information that can represe
 #### **Code**
 1. In a broader sense, a way of representing information, especially in a format computer can understand. Numbers, words, graphics, music and a great many other things can be encoded in a format suitable for computer calculations.
 2. In a more specific sense, an internal representation of a computer program.
+
+#### **Compiler**
 
 #### **Computer**
 A device (a tool) that can follow a set of instructions to perform complex calculations on numbers or encoded information.
@@ -62,3 +70,4 @@ Read-only memory. A type of computer memory. The information stored in RAM usual
 
 # S
 #### **Self-hosting**
+A tool (especially a compiler) that can be used for producing a new copies of itself. See _bootstrapping_.

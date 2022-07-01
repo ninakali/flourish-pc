@@ -1,8 +1,13 @@
-# One really embarrassing time capsule
+# Kind of sort of a time capsule
 
 As you might have noticed, this section is not in the table of contents. It is a part of the preface, but unlike previous sections, this one is not addressed to my contemporaries and is highly personal. I will embarrass myself to the fullest, so feel free to continue reading if that's your kind of thing. Otherwise, please proceed to the next section.
 
 # A letter from the Summer of 2022
+
+## A word of an apology (in advance)
+As a human, I suck at predicting the future. That's because the future does not care about my plans, hopes and fears; it just comes as it is. If you are reading this, and things are lovely, well, good for you! I hope you will have a few laughs while reading my thoughts about the future. But if my worst fears turned true by the time you read this and the world as I know it is no more, I am very sorry. If that is the case, I hope you are not losing hope.
+
+Either way, before I wish you good luck on the journey of building a computer, I want to show you how the past, the present and the future are looking for me.
 
 ## A long glance to the past
 
@@ -16,6 +21,7 @@ Such simple devices could not deal well enough with massive computational tasks,
 
 Whichever is the case, around the break of the 20th century, significant advances in both science and computing technologies accelerated so much the progress looks a bit blurry. First, tabulating machines in 1890 AD, then universal computational elements in 1913, and then the first general-purpose computer in the late 1930s. Commercial computers (1951), transistor computers (1953), integrated circuits (1958), SRAM (1963), microprocessors (1971), Unix release (1973), first personal computers (1974), TCP and internet (1974), The Personal Computer (1981), pocket electronic computers (1984), world wide web (1991), digital mobile phones (1991), Linux operating system (1991), Amazon and eBay (1995), USB bus (1996), Arduino (2003), first Android phone (2008), Raspberry Pi (2012) and Pi Zero (2015), and countless other technologies that have changed our lives, forever.
 
-## Forever?
+## Forever is now
+I write this document using my portable computer, a 3-year-old notebook. According to the data I could find, it has a reasonably standard processor with a peak performance of around 85 000 DMIPS (that is, 85 000 000 000 abstract operations per second). Thirty years prior, a typical home computer had a performance of around 1 000 000 op/s. Sixty years prior? Mainframes could do 15 000 op/s, and retail computers - about 100 op/s. And I think this is one of the most commonplace illustrations of the exponential growth of computer performance and technological progress I can find today.
 
-I write this document using my 3-year-old portable computer. According to the data I could find, its peak performance should be around 85 000 DMIPS (that is, 83 000 000 000 abstract operations per second). The first popular personal computers had a peak performance between 0.25 and 1 DMIPS (250 000 to 1 000 000 op/s).
+The majority of people today either witnessed the advent of incredible technological advancements or were born in a world where such speed of mass production and progress are taken for granted.

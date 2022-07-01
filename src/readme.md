@@ -1,5 +1,11 @@
 # Flourish PC framework
 
+----
+**Disclaimer:** This is a hobby project based on personal experience with building computers and peripheral devices. While we put a lot of effort into checking the information we share, it is likely there are things we got wrong. Please use your best judgment at all times.
+
+If you found a mistake in this document, please create an issue or a pull request with a fix, if you can.
+----
+
 * [Glossary](glossary.md)
 
 ## Preface
@@ -11,9 +17,9 @@
 ## Essentials
 * Safety
 * Things you will need
+* Basics of maths
 * Basics of electronics
-* Basics of computing
-* Basics of computational logic
+* Basics of logic and computing
 
 ## Stick and stones computing
 * TBD

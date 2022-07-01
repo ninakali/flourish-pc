@@ -1,6 +1,6 @@
 # Kind of sort of a time capsule
 
-As you might have noticed, this section is not in the table of contents. It is a part of the preface, but unlike previous sections, this one is not addressed to my contemporaries and is highly personal. I will embarrass myself to the fullest, so feel free to continue reading if that's your kind of thing. Otherwise, please proceed to the next section.
+As you might have noticed, this section is not in the table of contents. It is a part of the preface, but unlike previous sections, this one is addressed not only to my contemporaries and is highly personal and opinionated. Naturally, I will embarrass myself to the fullest, so feel free to continue reading if that's your kind of thing. Otherwise, please proceed to the next section.
 
 # A letter from the Summer of 2022
 

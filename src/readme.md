@@ -12,12 +12,14 @@ If you found a mistake in this document, please create an issue or a pull reques
 
 ## Preface
 * [Preface: Flourish PC and permacomputing](preface.md)
+
+## Introduction
 * [Flourish PC for computer engineers and hobbyists](000/000.md)
 * [Flourish PC for frugal and affordable personal computing](000/001.md)
 * [Flourish PC for salvage and collapse computing](000/002.md)
 
 ## Essentials
-* Safety
+* [Safety](001/000.md)
 * Things you will need
 * Basics of maths
 * Basics of electronics

@@ -1,6 +1,7 @@
 # Kind of sort of a time capsule
 
-As you might have noticed, this section is not in the table of contents. It is a part of the preface, but unlike previous sections, this one is addressed not only to my contemporaries and is highly personal and opinionated. Naturally, I will embarrass myself to the fullest, so feel free to continue reading if that's your kind of thing. Otherwise, please proceed to the next section.
+@ninakali:
+> As you might have noticed, this section is not in the table of contents. It is a part of the preface, but unlike previous sections, this one is addressed not only to my contemporaries and is highly personal and opinionated. Naturally, I will embarrass myself to the fullest, so feel free to continue reading if that's your kind of thing. Otherwise, please proceed to the next section.
 
 # A letter from the Summer of 2022
 
@@ -47,4 +48,4 @@ But you can't always get what you want.
 
 Pandemics, wars, famine and other things we call "black swans" happen regularly. Countless civilisations did not survive the tribulations they faced. I do not know what end might wait for our culture. Still, I want to hope that in this case, at least we will have one more chance at achieving happiness for everybody, free, so no one will go away unsatisfied.
 
-[Up](../readme.md)
+[**Next**](../001/000.md)

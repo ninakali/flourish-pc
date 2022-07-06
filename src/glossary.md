@@ -23,6 +23,7 @@ A process of starting something that can continue to operate or improve without 
 2. In a more specific sense, an internal representation of a computer program.
 
 #### Compiler
+A tool for programming languages: a program that converts code in a form that can be understood by a programmer into a code that can be understood by a computer (usually, binary code).
 
 #### Computer
 A device (a tool) that can follow a set of instructions to perform complex calculations on numbers or encoded information.
@@ -57,16 +58,23 @@ Electrical and mechanical components of a computer.
 
 # I
 #### Interpreter
+A tool for programming languages: a program that can execute code in a form that can understood by a programmer without converting it into machine code.
 
 # O
 #### Operating system
+A computer program that provides a set of useful functions for controlling the computer, and is used to execute and set up other programs.
 
 # P
 #### Permacomputing
+An approach to computing that aims to make computing sustainable.
 
 #### Personal computing
+A multi-purpose (and repurposable) computer that is small and cheap enough to be used individually. Example: PDAs (personal digital assistants) are repurposable pocket computers; therefore, they are a kind of personal computer. Counter-example: very similar to PDAs, digital organisers are multi-purpose computers, but they cannot be repurposed; hence, they aren't really personal computers.
 
 #### Program
+1. _noun_ a series of steps that a computer needs to perform to achieve a goal
+2. _noun_ a file that contains a program in a format that can be executed by the computer (called "binary executable" in this case) or interpreted or compiled (called "source code" in this case)
+3. _verb_ an action of recording a program into a ROM or Flash memory of a digital device
 
 # R
 #### RAM
@@ -79,3 +87,7 @@ Read-only memory. A type of computer memory. The information stored in RAM usual
 #### Self-hosting
 Also see: _bootstrapping_.
 A tool (especially a compiler) that can be used for producing a new copies of itself.
+
+#### Software
+Also see: _program_ (2).
+A general term for computer programs.

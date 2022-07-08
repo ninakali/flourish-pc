@@ -19,10 +19,10 @@ If you found a mistake in this document, please create an issue or a pull reques
 * [Flourish PC for salvage and collapse computing](000/002.md)
 
 ## Safety first
-This list of safety measures is non-exhaustive and might not apply to your circumstances. Please use your best judgment, and avoid doing things that can be unsafe.
+This list of safety measures is non-exhaustive and might not apply to your circumstances. Please use your best judgment, and avoid doing things that can be unsafe. Carelessness kills.
 
 * [Safety and your mind](001/000.md)
-* 
+* [Electricity and your body](001/001.md)
 
 ## Essentials
 * Things you will need

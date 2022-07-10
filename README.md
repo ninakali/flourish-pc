@@ -4,7 +4,9 @@ This project aims to create an open framework for personal computing. Cheap, sim
 
 ![(A picture of a home-made computer.)](https://github.com/ninakali/flourish-pc/blob/main/blobs/demo.jpg "Demo of the reference implementation")
 
-Current release: none yet.
+Current release: none yet. But you can check out [Work in progress](./src/readme.md), or take a look at a sibling scavenging/low-tech project [**chip_scavenger**](https://github.com/ninakali/chip_scavenger/)
+
+
 
 ## why?
 

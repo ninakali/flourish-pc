@@ -23,6 +23,7 @@ This list of safety measures is non-exhaustive and might not apply to your circu
 
 * [Safety and your mind](001/000.md)
 * [Electricity and your body](001/001.md)
+* [Hazards you should know about](001/002.md)
 
 ## Essentials
 * Things you will need

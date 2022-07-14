@@ -26,7 +26,7 @@ This list of safety measures is non-exhaustive and might not apply to your circu
 * [Hazards you should know about](001/002.md)
 
 ## Essentials
-* Things you will need
+* [Things you will need](002/000.md)
 * Basics of maths
 * Basics of electronics
 * Basics of logic and computing

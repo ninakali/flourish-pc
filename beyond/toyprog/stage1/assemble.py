@@ -6,7 +6,7 @@ language into bits for the RAM
 """
 
 
-CMD = ["IN", "OUT", "LDA", "STA", "NOR", "SUB", "JCC", "STOP"]
+CMD = ["IN", "OUT", "LDA", "STA", "NOR", "SUB", "ADD", "JCC", "STOP"]
 
 inf = open(sys.argv[1]).read().split("\n")
 outf = open(sys.argv[2], "w")
@@ -32,8 +32,10 @@ for line in inf:
 		# ignore line numbers
 		line.pop(0)
 	cmd = CMD.index(line[0].upper())
-	outf.write(format(cmd, '03b'))
+	if line[0] != "STOP":
+		outf.write(format(cmd, '03b'))
 	if line[0] == "STOP":
+		outf.write(format(CMD.index("LDA"), '03b'))
 		outf.write("000")
 	elif line[1] == "A":
 		outf.write("000")

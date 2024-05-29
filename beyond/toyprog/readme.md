@@ -39,9 +39,11 @@ For the sake of simplicity, let's say:
   * LDA reg - move register to accumulator
   * STA reg - move accumulator to register
   * NOR reg - NOR of register and accumulator
-  * SUB reg - R0 = R0 - R1; sets the carry flag
+  * SUB reg - R0 = R0 - Reg; sets the carry flag
+  * ADD reg - R0 = R0 + Reg; sets the carry flag; useful for left shift
   * JCC reg - jump to address from the register if carry is set (clears the carry flag)
-  * [reserved for extensions, used for STOP command for now]
+
+STOP command is using useless "LDA R0" opcode. There's "STA R0" opcode unused.
 
 That means, the commmand ROM is 3 bits of commands + 3 bits of register addresses. Input tape will need to have "constants" loaded at the beginning of the program.
 

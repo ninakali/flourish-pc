@@ -1,6 +1,6 @@
 import sys
 
-CMD = ["IN", "OUT", "LDA", "STA", "NOR", "SUB", "JCC", "STOP"]
+CMD = ["IN", "OUT", "LDA", "STA", "NOR", "SUB", "ADD", "JCC"]
 
 prog = open(sys.argv[1]).read().splitlines()
 intape = open(sys.argv[2])
@@ -31,6 +31,9 @@ while True:
 		outtape.write(str(REGS[arg]))
 		outtape.write("\n")
 	if next_cmd == CMD.index("LDA"):
+		if arg == 0:
+			# STOP opcode
+			break
 		REGS[0] = REGS[arg]
 	if next_cmd == CMD.index("STA"):
 		REGS[arg] = REGS[0]
@@ -41,10 +44,13 @@ while True:
 		if REGS[0] < 0:
 			carry = True
 		REGS[0] &= PRECISION
+	if next_cmd == CMD.index("ADD"):
+		REGS[0] += REGS[arg]
+		if REGS[0] > PRECISION:
+			carry = True
+		REGS[0] &= PRECISION
 	if next_cmd == CMD.index("JCC"):
 		if carry:
 			pc = REGS[arg] & 0b11111
-	if next_cmd == CMD.index("STOP"):
-		break
 	if pc > 31:
 		pc = 0

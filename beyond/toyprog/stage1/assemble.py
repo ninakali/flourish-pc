@@ -15,6 +15,7 @@ idx = 0
 
 for line in inf:
 	print(line)
+	orig_line = line
 	line = line.strip()
 	if len(line) == 0:
 		# empty string
@@ -42,8 +43,13 @@ for line in inf:
 	else:
 		# R0-R7
 		reg = int(line[1][1])
+		if reg < 0 or reg > 7:
+			raise IndexError("Registers can only be R0-R7")
 		outf.write(format(reg, '03b'))
+	outf.write(":")
+	outf.write(orig_line)
 	outf.write("\n")
 	idx += 1
-
+	if idx > 32:
+		raise IndexError("Ran out of program memory")
 

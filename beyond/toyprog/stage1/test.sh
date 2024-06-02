@@ -1,10 +1,10 @@
 #!/bin/sh
 echo "< Source >"
-python3 assemble.py tests/$1.asm tests/$1.bin
+python3 assemble.py tests/$1/src.asm tests/$1/compiled.bin
 echo "< Input tape >"
-cat tests/$1.in
+cat tests/$1/tape.in
 echo "< Execution >"
-python3 emu.py tests/$1.bin tests/$1.in tests/$1.out
+python3 emu.py tests/$1/compiled.bin tests/$1/tape.in tests/$1/tape.out
 echo ""
 echo "< Output tape >"
-cat tests/$1.out
+cat tests/$1/tape.out

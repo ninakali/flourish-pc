@@ -1,0 +1,26 @@
+000:000100:IN R4 # Constant 1
+001:000101:IN R5 # Jump table - begin address
+002:000110:IN R6 # Jump table - branch1 address
+003:000111:IN R7 # Jump table - branch2 address
+004:000001:IN R1 # Input number A
+005:000010:IN R2 # Input number B
+006:101000:SUB R0 # [Begin] entry point. Clear TMP
+007:010010:LDA R2 # TMP=A
+008:101001:SUB R1 # TMP=B-A is in R1
+009:111110:JCC R6 # If carry, jump to Branch1
+010:011011:STA R3 # we might need TMP value in the future
+011:101100:SUB R4 # decrement accumulator by 1
+012:111111:JCC R7 # if carry, jump to Branch2
+013:010011:LDA R3 # we need previous TMP
+014:011010:STA R2 # B = TMP now
+015:101000:SUB R0 # simulate JMP to beginning by: R0 = R0-R0
+016:101100:SUB R4 # then R0 = R0 - 1 (carry set!)
+017:111101:JCC R5 
+018:010001:LDA R1 # [Branch1] entry point. R1 = A
+019:101010:SUB R2 # R1 = A - B
+020:011001:STA R1 # R2[A] = A - B
+021:101000:SUB R0 # simulate JMP to Begin
+022:101100:SUB R4
+023:111101:JCC R5
+024:001001:OUT R1 # [Branch2] entry point. Variable A holds the answer
+025:010000:STOP # that's it folks!

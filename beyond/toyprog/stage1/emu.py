@@ -22,10 +22,10 @@ while True:
 	steps += 1
 	next_cmd = PROGMEM[pc][0]
 	arg = PROGMEM[pc][1]
-	print("%d: [%d] %s R%d" % (steps, pc, CMD[next_cmd], arg))
+	print("%d: [%d] %s R%d Regs:%s CF:%d" % (steps, pc, CMD[next_cmd], arg, REGS, carry))
 	pc += 1
 	if next_cmd == CMD.index("IN"):
-		num = int(intape.readline())
+		num = int(intape.readline().strip().split(" ")[0])
 		REGS[arg] = num & PRECISION
 	if next_cmd == CMD.index("OUT"):
 		outtape.write(str(REGS[arg]))
@@ -52,5 +52,6 @@ while True:
 	if next_cmd == CMD.index("JCC"):
 		if carry:
 			pc = REGS[arg] & 0b11111
+		carry = False
 	if pc > 31:
 		pc = 0

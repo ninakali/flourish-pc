@@ -1,0 +1,6 @@
+1 # A constant for decrement
+6 # address of Begin procedure
+18 # address of branch1
+24 # address of branch2
+5412 # number A
+5535 # number B (GCD = 123)

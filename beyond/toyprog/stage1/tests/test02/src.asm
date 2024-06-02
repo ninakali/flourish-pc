@@ -32,15 +32,20 @@
 # R5 = [Begin] address
 # R6 = [Branch1] address
 # R7 = [Branch2] address
+# Note that the jump offsets are dumped to the input tape by LABEL instruction,
+# But one still has to manually track order of them and manually map to the registers
 
+CONST 1 # note: emits "1" to the input tape
 IN R4 # Constant 1
+
 IN R5 # Jump table - begin address
 IN R6 # Jump table - branch1 address
 IN R7 # Jump table - branch2 address
+
 IN R1 # Input number A
 IN R2 # Input number B
 
-# [Begin]
+LABEL [Begin] # note: emits current address to the tape
 SUB R0 # [Begin] entry point. Clear TMP
 LDA R2 # TMP=A
 SUB R1 # TMP=B-A is in R1
@@ -56,7 +61,7 @@ SUB R0 # simulate JMP to beginning by: R0 = R0-R0
 SUB R4 # then R0 = R0 - 1 (carry set!)
 JCC R5 
 
-# [Branch1]
+LABEL [Branch1]
 LDA R1 # [Branch1] entry point. R1 = A
 SUB R2 # R1 = A - B
 STA R1 # R2[A] = A - B
@@ -65,7 +70,7 @@ SUB R0 # simulate JMP to Begin
 SUB R4
 JCC R5
 
-# [Branch2]
+LABEL [Branch2]
 OUT R1 # [Branch2] entry point. Variable A holds the answer
 STOP # that's it folks!
 

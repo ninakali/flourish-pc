@@ -11,6 +11,11 @@ CMD = ["IN", "OUT", "LDA", "STA", "NOR", "SUB", "ADD", "JCC", "STOP"]
 inf = open(sys.argv[1]).read().split("\n")
 outf = open(sys.argv[2], "w")
 
+if len(sys.argv) == 4:
+	consts = open(sys.argv[3], "w")
+else:
+	consts = None
+
 idx = 0
 
 for line in inf:
@@ -25,13 +30,26 @@ for line in inf:
 		# comment
 		continue
 
-	outf.write(format(idx, '03d'))
-	outf.write(":")
-
 	line = line.split(" ")
 	if line[0].isdigit():
 		# ignore line numbers
 		line.pop(0)
+
+	# meta-commands: generate constants and labels
+	if consts and line[0].upper() == "CONST":
+		consts.write(line[1])
+		consts.write("\n")
+		continue
+
+	if consts and line[0].upper() == "LABEL":
+		consts.write(str(idx))
+		consts.write("\n")
+		continue
+
+	# Real command => we can safely output the address
+	outf.write(format(idx, '03d'))
+	outf.write(":")
+
 	cmd = CMD.index(line[0].upper())
 	if line[0] != "STOP":
 		outf.write(format(cmd, '03b'))

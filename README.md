@@ -24,7 +24,9 @@ It is challenging to decide what the framework should include, though. For examp
 
 
 ## community?
-At the moment, there is no community around this project. If you are interested in Flourish PC and want to get in touch with the creators, feel free to email Nina at nkali[at]pm[dot]me, or contact her in Discord (ninak[#]1337) and on [Twitter](https://twitter.com/nina_kali_nina).
+At the moment, there is no community around this project. If you are interested in Flourish PC and want to get
+in touch with the creators, feel free to email Nina at nkali[at]pm[dot]me, or contact her in Discord
+(ninak) and on [Mastodon](https://tech.lgbt/@nina_kali_nina).
 
 ## ps
 Anime girl art by [Sutemo](https://sutemo.itch.io/female-character)

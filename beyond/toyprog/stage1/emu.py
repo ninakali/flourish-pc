@@ -36,7 +36,11 @@ while True:
 			break
 		REGS[0] = REGS[arg]
 	if next_cmd == CMD.index("STA"):
-		REGS[arg] = REGS[0]
+		if arg == 0:
+			# ROR
+			REGS[0] == REGS[0] >> 1
+		else:
+			REGS[arg] = REGS[0]
 	if next_cmd == CMD.index("NOR"):
 		REGS[0] = ~(REGS[0] | REGS[arg]) & PRECISION
 	if next_cmd == CMD.index("SUB"):

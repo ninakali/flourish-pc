@@ -25,13 +25,30 @@ This list of safety measures is non-exhaustive and might not apply to your circu
 * [Electricity and your body](001/001.md)
 * [Hazards you should know about](001/002.md)
 
-## Essentials
-* [Basics of maths](002/000.md)
+## Low-tech computing
+A non-exhaustive list of useful computing technologies and methods that do not require a digital computer but are essential when it comes to using one.
+
+* Introduction to algorithms: recipes, checklists, flowcharts
+* Multiplication, division, square roots, trigonometry
+* Simple calculating tools: abacus, tables, slide rule
+* Plotting, geometric methods and nomograms
+* Data structures: queues, trees and graphs
+* Databases, indexes, sorting and search
+* Ledgers, spreadsheets and envelope budgets
+* Codes, encodings, cyphers
+* Vector and raster graphics
+* Music notation and player piano
+* Flashcards and spaced repetition systems
+* Perpetual calendars and orreries
+* Randomness and statistics
+
+## Digital computer essentials
+* [Basics of maths](003/000.md)
 * Basics of logic and computing
 * Basics of electronics
-* [Things you will need](002/003.md)
+* [Things you will need](003/003.md)
 
-## Stick and stones computing
+## Case study: paper model of a programmable computer
 * TBD
 
 ## What are computers made of?
